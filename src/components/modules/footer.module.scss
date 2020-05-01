@@ -1,0 +1,28 @@
+footer {
+  width: 100vw;
+  background-color: #a3b4bf;
+  margin-top: 3.5rem;
+  color: #1f2326;
+}
+
+.footerNav {
+  margin: 0 auto;
+  max-width: 68rem;
+  padding: 3.5rem 2rem 2.7rem;
+}
+
+.footerFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.footerNavItem {
+  margin: 0 3.5rem 1.5rem 0;
+}
+
+.navHeaders {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: lightgray;
+}

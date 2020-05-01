@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 
 function BlogPage() {
   return (
-    <Layout>
+    <Layout text="blog">
       <p>This is some blog content!</p>
     </Layout>
   )

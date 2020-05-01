@@ -1,12 +1,13 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import Headers from "../components/Headers"
 
 export default () => {
   return (
     <>
       <Layout>
-        <p>INTRODUCTION</p>
+        <Headers text="hi there!" size="1.2rem" />
         <h1>
           My name is Alec Lomas, and I make websites. Currently, I’m helping
           recruiting stay human at HiringSolved. In the last 30 days, I’ve

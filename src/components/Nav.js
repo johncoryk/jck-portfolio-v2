@@ -9,13 +9,18 @@ function Nav() {
       <h1>Cory Kelley</h1>
       <ul className={navStyles.navLinks}>
         <li>
+          <Link to="/" className={navStyles.link}>
+            /Home
+          </Link>
+        </li>
+        <li>
           <Link to="/projects" className={navStyles.link}>
-            Projects
+            /Projects
           </Link>
         </li>
         <li>
           <Link to="/blog" className={navStyles.link}>
-            Blog
+            /Blog
           </Link>
         </li>
       </ul>

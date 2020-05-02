@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
 import Headers from "./Headers"
+import NavLink from "./NavLink"
 import footerStyles from "./modules/footer.module.scss"
 
 function Footer() {
@@ -23,15 +24,20 @@ function Footer() {
           <div>
             <Headers text="Site" size=".85rem" />
             <ul className={footerStyles.footerNavItem}>
-              <li>something</li>
-              <li>something</li>
-              <li>something</li>
-              <li>something</li>
+              <li>
+                <NavLink to="/projects">Projects</NavLink>
+              </li>
+              <li>
+                <NavLink to="/blog">Blog</NavLink>
+              </li>
+              <li>
+                <NavLink to="/stacks">Stacks</NavLink>
+              </li>
             </ul>
           </div>
 
           <div>
-            <Headers text="Links" size=".85rem" />
+            <Headers text="Social" size=".85rem" />
             <ul className={footerStyles.footerNavItem}>
               <li>something</li>
               <li>something</li>

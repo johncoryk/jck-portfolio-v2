@@ -1,6 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
+import NavLink from "./NavLink"
 import navStyles from "./modules/nav.module.scss"
 
 function Nav() {
@@ -9,19 +9,24 @@ function Nav() {
       <h1>Cory Kelley</h1>
       <ul className={navStyles.navLinks}>
         <li>
-          <Link to="/" className={navStyles.link}>
-            /Home
-          </Link>
+          <NavLink to="/" slash="true" className={navStyles.link}>
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/projects" className={navStyles.link}>
-            /Projects
-          </Link>
+          <NavLink to="/projects" slash="true" className={navStyles.link}>
+            Projects
+          </NavLink>
         </li>
         <li>
-          <Link to="/blog" className={navStyles.link}>
-            /Blog
-          </Link>
+          <NavLink to="/blog" slash="true" className={navStyles.link}>
+            Blog
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/stacks" slash="true" className={navStyles.link}>
+            Stacks
+          </NavLink>
         </li>
       </ul>
     </nav>

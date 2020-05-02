@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import Headers from "../components/Headers"
+import contentSyles from "../components/modules/content.module.scss"
 
 export default () => {
   return (
@@ -9,13 +10,20 @@ export default () => {
       <Layout>
         <Headers text="hi there!" size="1.2rem" />
         <h1>
-          My name is Alec Lomas, and I make websites. Currently, I’m helping
-          recruiting stay human at HiringSolved. In the last 30 days, I’ve
-          pushed 115 commits to GitHub, sent 37 tweets, taken 93,039 steps, and
-          visited 0 places. My most played album is “Saint Cloud” by
-          Waxahatchee, and I’ve listened to 2,311 songs overall. I am reading 2
-          books at the moment: “Movies” by Shea Serrano and “Exhalation” by Ted
-          Chiang.
+          My name is Cory
+          <span className={contentSyles.lighter}>
+            {" "}
+            and I'm a graphic designer turned front end web developer. I've
+            always had a creative itch to scratch and design & development is
+            the perfect 'peanut butter and jelly' sorta combo I've been
+            searching for my entire life. I use tools like{" "}
+            <span className={contentSyles.colored}>
+              React, Sass, Tailwind CSS, Node, Gatsby,
+            </span>
+            {"  "}
+            and a few other things to build fun and nice looking websites for
+            myself and others!
+          </span>
         </h1>
       </Layout>
     </>

@@ -1,0 +1,16 @@
+.navLink {
+  transition: all ease 100ms;
+
+  &:hover {
+    color: #f26e50;
+  }
+}
+
+.activeNavLink {
+  &:hover {
+    color: #eee;
+  }
+  & > span {
+    color: #f26e50;
+  }
+}

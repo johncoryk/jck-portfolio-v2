@@ -1,6 +1,7 @@
 main {
   margin: 0 auto;
-  max-width: 65rem;
+  max-width: 68rem;
+  padding: 0 1.5rem 0.5rem;
 }
 
 .lighter {
@@ -9,4 +10,12 @@ main {
 
 .colored {
   background-color: #f26e50;
+  font-weight: 800;
+  padding: 0 3px;
+}
+
+@media (max-width: 750px) {
+  .intro {
+    font-size: 2rem;
+  }
 }

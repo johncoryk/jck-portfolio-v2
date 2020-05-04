@@ -1,0 +1,16 @@
+.stacksFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stackHeader {
+  align-self: center;
+  margin-left: 5rem;
+}
+
+.rule {
+  margin: 2.5rem auto;
+  border: 1.5px solid #f26e50;
+  width: 98%;
+}

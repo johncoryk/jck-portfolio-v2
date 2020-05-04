@@ -10,7 +10,9 @@ function NavLink({ to, children, slash }) {
         to={to}
         slash={slash}
         className={navLinkStyles.navLink}
-        activeClassName={navLinkStyles.activeNavLink}
+        activeClassName={
+          slash ? navLinkStyles.activeNavLink : navLinkStyles.activeFooterLink
+        }
       >
         {slash && <span>/</span>}
         {children}

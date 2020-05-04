@@ -1,0 +1,28 @@
+.projectsFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projectItemFlex {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 1.3rem;
+}
+
+.linksFlex {
+  display: flex;
+  flex-direction: row;
+
+  a {
+    margin-right: 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .projectItemFlex {
+    margin-bottom: 2.5rem;
+  }
+}

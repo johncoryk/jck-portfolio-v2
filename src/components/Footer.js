@@ -12,6 +12,9 @@ function Footer() {
         siteMetadata {
           githubUrl
           name
+          twitterUrl
+          codepenUrl
+          emailAddress
         }
       }
     }
@@ -24,6 +27,9 @@ function Footer() {
           <div>
             <Headers text="Site" size=".85rem" />
             <ul className={footerStyles.footerNavItem}>
+              <li>
+                <NavLink to="/">Home</NavLink>
+              </li>
               <li>
                 <NavLink to="/projects">Projects</NavLink>
               </li>
@@ -39,14 +45,42 @@ function Footer() {
           <div>
             <Headers text="Social" size=".85rem" />
             <ul className={footerStyles.footerNavItem}>
-              <li>something</li>
-              <li>something</li>
-              <li>something</li>
-              <li>something</li>
+              <li>
+                <a
+                  className={footerStyles.extLink}
+                  href={`mailto:${data.site.siteMetadata.emailAddress}`}
+                >
+                  Email Me
+                </a>
+              </li>
+              <li>
+                <a
+                  className={footerStyles.extLink}
+                  href={data.site.siteMetadata.githubUrl}
+                >
+                  Github
+                </a>
+              </li>
+              <li>
+                <a
+                  className={footerStyles.extLink}
+                  href={data.site.siteMetadata.twitterUrl}
+                >
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  className={footerStyles.extLink}
+                  href={data.site.siteMetadata.codepenUrl}
+                >
+                  Codepen
+                </a>
+              </li>
             </ul>
           </div>
 
-          <div>
+          <div className={footerStyles.blogPost}>
             <Headers text="Latest Post" size=".85rem" />
             <div className={footerStyles.footerNavItem}>
               <h3>Blog Post</h3>
@@ -54,14 +88,14 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p>
+        <p className={footerStyles.copyright}>
           Made with{" "}
           <a className={footerStyles.gatsbyLink} href="http://gatsbyjs.org">
             Gatsby
           </a>{" "}
           & lots of coffee by
           <a
-            className={footerStyles.coryLink}
+            className={footerStyles.extLink}
             href={data.site.siteMetadata.githubUrl}
           >
             {" "}

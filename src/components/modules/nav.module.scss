@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 5rem auto 3.75rem;
-  max-width: 65rem;
-  padding-right: 0.3rem;
+  margin: 3.75rem auto 3.75rem;
+  max-width: 68rem;
+  padding: 1.5rem;
 }
 
 .navLinks {
@@ -14,7 +14,6 @@
   align-items: center;
 
   li {
-    display: inline-block;
     margin-left: 1.6rem;
   }
 
@@ -22,5 +21,55 @@
     color: inherit;
     text-decoration: none;
     margin: 0 auto;
+  }
+}
+
+.iconFlex {
+  display: flex;
+  align-items: flex-end;
+}
+
+.mailIcon {
+  fill: #eee;
+  font-size: 20px;
+  transition: all ease 100ms;
+
+  &:hover {
+    transform: scale(1.1);
+    fill: #f26e50;
+  }
+}
+
+.ckLogo {
+  padding-left: 7px;
+}
+
+@media (max-width: 500px) {
+  .navDiv {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem auto;
+
+    div:first-of-type {
+      margin: 0 auto;
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+
+  .ckLogo {
+    padding: 0;
+  }
+
+  .navLinks {
+    justify-content: space-between;
+
+    li {
+      margin: 0;
+    }
   }
 }

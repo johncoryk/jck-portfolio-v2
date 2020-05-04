@@ -1,11 +1,12 @@
 import React from "react"
 
+import Headers from "../components/Headers"
 import Layout from "../components/layout"
 
 function BlogPage() {
   return (
     <Layout text="blog">
-      <p>This is some blog content!</p>
+      <Headers text="blog" size="1.2rem" />
     </Layout>
   )
 }

@@ -9,7 +9,7 @@ export default () => {
     <>
       <Layout>
         <Headers text="hi there!" size="1.2rem" />
-        <h1>
+        <h1 className={contentSyles.intro}>
           My name is Cory
           <span className={contentSyles.lighter}>
             {" "}

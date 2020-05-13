@@ -4,7 +4,7 @@ import Head from "../components/Head"
 import Headers from "../components/Headers"
 import ProjectLinks from "../components/ProjectLinks"
 import projectStyles from "../components/modules/project.module.scss"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 function ProjectsPage() {
   const projects = [

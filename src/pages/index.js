@@ -1,7 +1,7 @@
 import React from "react"
 
 import Head from "../components/Head"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Headers from "../components/Headers"
 import contentSyles from "../components/modules/content.module.scss"
 

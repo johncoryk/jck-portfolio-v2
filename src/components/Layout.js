@@ -2,7 +2,7 @@ import React from "react"
 
 import Nav from "./Nav"
 import Footer from "./Footer"
-import Content from "./content"
+import Content from "./Content"
 import "../styles/index.scss"
 import layoutStyles from "./modules/layout.module.scss"
 

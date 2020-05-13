@@ -1,5 +1,6 @@
 import React from "react"
 
+import Head from "../components/Head"
 import Headers from "../components/Headers"
 import stackStyles from "../components/modules/stacks.module.scss"
 import Layout from "../components/Layout"
@@ -33,6 +34,7 @@ function StacksPage() {
 
   return (
     <Layout>
+      <Head title="Stacks" />
       <Headers text="stacks" size="1.2rem" />
       <div className={stackStyles.stacksFlex}>
         <div>{setupMapped}</div>

@@ -34,9 +34,6 @@ function Footer() {
                 <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
-                <NavLink to="/blog">Blog</NavLink>
-              </li>
-              <li>
                 <NavLink to="/stacks">Stacks</NavLink>
               </li>
             </ul>
@@ -78,14 +75,6 @@ function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-
-          <div className={footerStyles.blogPost}>
-            <Headers text="Latest Post" size=".85rem" />
-            <div className={footerStyles.footerNavItem}>
-              <h3>Blog Post</h3>
-              <p>Some sort of sample of the blog post!</p>
-            </div>
           </div>
         </div>
         <p className={footerStyles.copyright}>

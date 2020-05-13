@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { IoMdMail } from "react-icons/io"
 
-import ckLogo from "../../images/ckLogo_v1.svg"
+import ckLogo from "../images/ckLogo_v1.svg"
 import NavLink from "./NavLink"
 import navStyles from "./modules/nav.module.scss"
 
@@ -33,11 +33,6 @@ function Nav() {
         <li>
           <NavLink to="/projects" slash="true" className={navStyles.link}>
             Projects
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/blog" slash="true" className={navStyles.link}>
-            Blog
           </NavLink>
         </li>
         <li>

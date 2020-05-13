@@ -1,5 +1,6 @@
 import React from "react"
 
+import Head from "../components/Head"
 import Headers from "../components/Headers"
 import ProjectLinks from "../components/ProjectLinks"
 import projectStyles from "../components/modules/project.module.scss"
@@ -59,6 +60,7 @@ function ProjectsPage() {
 
   return (
     <Layout>
+      <Head title="Projects" />
       <Headers text="projects" size="1.2rem" />
       <div className={projectStyles.projectsFlex}>{projectsList}</div>
     </Layout>

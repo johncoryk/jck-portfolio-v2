@@ -1,5 +1,6 @@
 import React from "react"
 
+import Head from "../components/Head"
 import Layout from "../components/layout"
 import Headers from "../components/Headers"
 import contentSyles from "../components/modules/content.module.scss"
@@ -7,6 +8,7 @@ import contentSyles from "../components/modules/content.module.scss"
 export default () => {
   return (
     <>
+      <Head />
       <Layout>
         <Headers text="hi there!" size="1.2rem" />
         <h1 className={contentSyles.intro}>

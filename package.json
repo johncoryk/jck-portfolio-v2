@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "corykelley.dev",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Portfolio site for Cory Kelley - a front end developer.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "env-cmd -f .env.development gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -14,14 +14,17 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.21.0",
+    "gatsby": "^2.21.22",
     "gatsby-plugin-sass": "^2.3.0",
+    "gatsby-source-contentful": "^2.3.3",
     "node-sass": "^4.14.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-icons": "^3.10.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.2",
+    "env-cmd": "^10.1.0",
     "prettier": "2.0.5"
   },
   "repository": {

@@ -11,7 +11,7 @@ function ProjectsPage() {
     {
       name: "Hello Vino",
       desc:
-        "Hello Vino is a web app made with React that offers helpful information about many types of wine varietals. I've also included a custom 'wine recomendation' component.",
+        "Hello Vino is a web app made with React that offers helpful information about many types of wine varietals. I've also included a custom 'wine recommendation' component. Easy to use and useful for finding the perfect varietal quick!",
       url: "https://hello-vino.netlify.app/",
       code: "https://github.com/johncoryk/hello-vino",
     },
@@ -21,6 +21,13 @@ function ProjectsPage() {
         "Flix is a Netflix component clone. The simple interface asks for a movie title and returns it's genre, year released, an overview, and poster image if one is available.",
       url: "https://flix-movie-app.netlify.app/",
       code: "https://github.com/johncoryk/flix-app",
+    },
+    {
+      name: "Petrol",
+      desc:
+        "Petrol is an app inspired by Brad Traversy. Petrol is a simple, clean, and easy to use expense tracker styled in a Material UI fashion. This application was built in React using vanilla CSS and the full version also features a full backend using Node/Express and MongoDB.",
+      url: "https://jck-petrol-app.netlify.com",
+      code: "https://github.com/johncoryk/expense-tracker",
     },
     {
       name: "Portfolio Website",

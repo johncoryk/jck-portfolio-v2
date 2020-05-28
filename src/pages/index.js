@@ -17,10 +17,10 @@ export default () => {
             {" "}
             and I'm a graphic designer turned front end web developer. I've
             always had a creative itch to scratch and design & development is
-            the perfect 'peanut butter and jelly' sorta combo I've been
-            searching for my entire life. I use tools like{" "}
+            the perfect 'peanut butter & jelly' sorta combo I've been searching
+            for my entire life. I use tools like{" "}
             <span className={contentSyles.colored}>
-              React, Sass, Tailwind CSS, Node, Gatsby,
+              React, SCSS, Node and Express, Gatsby,
             </span>
             {"  "}
             and a few other things to build fun and nice looking websites for

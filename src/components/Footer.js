@@ -82,7 +82,7 @@ function Footer() {
           <a className={footerStyles.gatsbyLink} href="http://gatsbyjs.org">
             Gatsby
           </a>{" "}
-          & lots of coffee by
+          & lots of ☕️ by
           <a
             className={footerStyles.extLink}
             href={data.site.siteMetadata.githubUrl}

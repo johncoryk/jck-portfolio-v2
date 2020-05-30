@@ -1,10 +1,12 @@
 import React from "react"
 
+import Layout from "../components/Layout"
+
 const FourZeroFour = () => {
   return (
-    <div>
-      <h1>OH NO!!!!!! SORRY 'BOUT THAT....</h1>
-    </div>
+    <Layout>
+      <h1>OH NO! That doesn't exist in this timeline...</h1>
+    </Layout>
   )
 }
 

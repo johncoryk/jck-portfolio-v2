@@ -25,7 +25,7 @@ function StacksPage() {
     "Gatsby",
     "Node.js",
     "MongoDB",
-    "GraphQL",
+    "Express",
     "A few other things...",
   ]
 

@@ -14,6 +14,10 @@ main {
   padding: 0 3px;
 }
 
+.intro {
+  line-height: 3.2rem;
+}
+
 @media (max-width: 750px) {
   .intro {
     font-size: 2rem;

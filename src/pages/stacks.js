@@ -17,13 +17,13 @@ function StacksPage() {
   ]
   const tools = [
     "HTML5",
-    "CSS",
-    "Sass",
+    "CSS/SCSS",
     "Bootstrap & Tailwind CSS",
     "JavaScript",
     "React",
     "Gatsby",
     "Node.js",
+    "PostgreSQL",
     "MongoDB",
     "Express",
     "A few other things...",

@@ -20,7 +20,7 @@ export default () => {
             the perfect 'peanut butter & jelly' sorta combo I've been searching
             for my entire life. I use tools like{" "}
             <span className={contentSyles.colored}>
-              React, SCSS, Node and Express, Gatsby,
+              React, PostgreSQL, Node and Express, Gatsby,
             </span>
             {"  "}
             and a few other things to build fun and nice looking websites for

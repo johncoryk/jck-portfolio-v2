@@ -9,6 +9,13 @@ import Layout from "../components/Layout"
 function ProjectsPage() {
   const projects = [
     {
+      name: "How Can I Help?",
+      desc:
+        "How Can I Help is an application that allows students to offer and receive help from other students on various subjects and topics covered in tech. Built with full backend using Express and PostgreSQL.",
+      url: "https://how-can-i-help.herokuapp.com/",
+      code: "https://github.com/johncoryk/how-can-i-help",
+    },
+    {
       name: "Hello Vino",
       desc:
         "Hello Vino is a web app made with React that offers helpful information about many types of wine varietals. I've also included a custom 'wine recommendation' component. Easy to use and useful for finding the perfect varietal quick!",

@@ -15,7 +15,7 @@ export default () => {
           My name is Cory
           <span className={contentSyles.lighter}>
             {" "}
-            and I'm a graphic designer turned front end web developer. I've
+            and I'm a graphic designer turned full stack web developer. I've
             always had a creative itch to scratch and design & development is
             the perfect 'peanut butter & jelly' sorta combo I've been searching
             for my entire life. I use tools like{" "}
